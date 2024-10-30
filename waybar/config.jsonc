@@ -1,0 +1,49 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//  
+// by Stephan Raabe (2023) 
+// ----------------------------------------------------- 
+//
+{
+    // General Settings
+    "layer": "top",
+    "margin-top": 7,
+    "margin-bottom": 0,
+    "layer": "top",
+    "margin-left": 56,
+    "margin-right": 56,    
+    "spacing": 0,
+	// "height": 47,
+
+    // Load Modules
+    "include": ["~/.config/waybar/modules.json"],
+
+    // Modules Left
+    "modules-left": [
+        "custom/appmenu",
+        "hyprland/workspaces",
+		"custom/noftications"
+    ],
+
+    // Modules Center
+    "modules-center": [
+		"temperature",
+		"cpu",
+		"disk",
+		"hyprland/language"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+        "battery", 
+        "clock",
+        "network"
+    ]
+}
+
