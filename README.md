@@ -10,3 +10,5 @@
 - **Noftication Center**: Swaync
 - **Terminal**: Alacritty
 - **Shell**: Fish with Starship
+
+***Notice**: in this configuration files frequency uses directory /home/yarik! :)*
