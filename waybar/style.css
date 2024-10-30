@@ -341,12 +341,12 @@ window#waybar.empty #window {
 
 #network.ethernet {
     background-color: #1e1e2e;
-    color: #89dceb;
+    color: #a6e3a1;
 }
 
 #network.wifi {
     background-color: #1e1e2e;
-    color: #f9e2af;
+    color: #a6e3a1;
 }
 
 /* -----------------------------------------------------
