@@ -34,14 +34,14 @@
 		"temperature",
 		"cpu",
 		"disk",
-		"hyprland/language"
+        "battery"
     ],
 
     // Modules Right    
     "modules-right": [
         "pulseaudio",
         "bluetooth",
-        "battery", 
+		"hyprland/language",
         "clock",
         "network"
     ]
