@@ -10,5 +10,6 @@
 - **Noftication Center**: Swaync
 - **Terminal**: Alacritty
 - **Shell**: Fish with Starship
+- **Text Editor**: NeoVim
 
 ***Notice**: this configuration files frequency use directory /home/yarik! :)*
