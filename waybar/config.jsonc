@@ -34,7 +34,8 @@
 		"temperature",
 		"cpu",
 		"disk",
-        "battery"
+        "battery",
+		"custom/vpn"
     ],
 
     // Modules Right    
