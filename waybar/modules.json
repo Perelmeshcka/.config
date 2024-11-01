@@ -305,6 +305,6 @@
 		"exec": "cat ~/.config/hypr/src/vpn-status",
 		"return-type": "text",
 		"format": "{}",
-		"on-click": "alacritty -e sh ~/.config/hypr/src/vpn.sh"
+		"on-click": "alacritty -T VPN -e sh ~/.config/hypr/src/vpn.sh"
 	}
 }
