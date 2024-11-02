@@ -303,6 +303,7 @@
 
 	"custom/vpn": {
 		"exec": "cat ~/.config/hypr/src/vpn-status",
+		"interval": 1,
 		"return-type": "text",
 		"format": "{}",
 		"on-click": "alacritty -T VPN -e sh ~/.config/hypr/src/vpn.sh"
