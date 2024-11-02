@@ -58,7 +58,8 @@
 
     // Empty
     "custom/cat": {
-        "format": " "
+        "format": " ",
+		"on-click": "sh ~/.config/hypr/src/set-wallpaper.sh ~/Images/cat.jpg"
     },
     
     // Cliphist
