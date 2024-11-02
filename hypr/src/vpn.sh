@@ -1,13 +1,13 @@
 function turn_on {
 	doas wg-quick up wg0
 	echo "1" > ~/.config/hypr/src/vpn-working
-	echo "turned on"
+	notify-send "VPN is working"
 }
 
 function turn_off {
 	doas wg-quick down wg0
 	echo "0" > ~/.config/hypr/src/vpn-working
-	echo "turned off"
+	notify-send "VPN stopped"
 }
 
 working=$(<~/.config/hypr/src/vpn-working)
