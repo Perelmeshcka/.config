@@ -204,10 +204,9 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": "{icon} ",
-		"format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-wifi": " ",
         "format-ethernet": "󰈀",
-        "format-disconnected": "󰤭 disconnected",
+        "format-disconnected": "disconnected",
         "tooltip-format": "{ifname} via {gwaddri}",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
         "tooltip-format-ethernet": "{ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
@@ -237,7 +236,7 @@
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon}  {format_source}",
-        "format-bluetooth-muted": "󰝟 {icon}  {format_source}",
+        "format-bluetooth-muted": "  {icon}  {format_source}",
         "format-muted": "󰝟 {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
@@ -248,16 +247,16 @@
             "phone": " ",
             "portable": " ",
             "car": "",
-            "default": ["󰕿", "󰖀", "󰕾"]
+            "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
     },
 
     // Bluetooth
     "bluetooth": {
-        "format": "󰂯 {status}",
-        "format-disabled": "󰂯 ",
-		"format-connected": "󰂯 󰄬 ",
+        "format": " {status}",
+        "format-disabled": " ",
+		"format-connected": "  ",
         "interval": 30,
         "on-click": "blueman-manager",
         "format-no-controller": ""
