@@ -281,7 +281,8 @@
     },
 
 	"temperature": {
-		"format": " {temperatureC}°C"
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": ["", "", "", "", ""]
 	},
 
 	"custom/noftications": {
