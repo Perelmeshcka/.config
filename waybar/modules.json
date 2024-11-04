@@ -205,7 +205,7 @@
     "network": {
         "format": "{ifname}",
         "format-wifi": " ",
-        "format-ethernet": "󰈀",
+        "format-ethernet": " ",
         "format-disconnected": "disconnected",
         "tooltip-format": "{ifname} via {gwaddri}",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
