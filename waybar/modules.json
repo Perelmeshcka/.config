@@ -256,9 +256,8 @@
     // Bluetooth
     "bluetooth": {
         "format": "󰂯 {status}",
-        "format-disabled": "",
-        "format-off": "",
-		"format-connected": "󰂯 󰄬",
+        "format-disabled": "󰂯 ",
+		"format-connected": "󰂯 󰄬 ",
         "interval": 30,
         "on-click": "blueman-manager",
         "format-no-controller": ""
