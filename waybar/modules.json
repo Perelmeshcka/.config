@@ -165,7 +165,8 @@
     "hyprland/language": {
         // "format": "  {short}",
 		"format-en": " eng",
-		"format-ru": " rus"
+		"format-ru": " rus",
+		"format-by": " by"
     },
 
     // Group Hardware
