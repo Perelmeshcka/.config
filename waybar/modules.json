@@ -164,8 +164,8 @@
 
     "hyprland/language": {
         // "format": "  {short}",
-		"format-en": " eng",
-		"format-ru": " rus",
+		"format-en": " en",
+		"format-ru": " ru",
 		"format-by": " by"
     },
 
