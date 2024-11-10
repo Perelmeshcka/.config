@@ -36,7 +36,7 @@ window#waybar {
  * ----------------------------------------------------- */
 
 #workspaces {
-    background: #313244;
+    background: #1e1e2e;
     margin: 5px 1px 6px 1px;
     padding: 0px 1px;
     border-radius: 15px;
@@ -54,14 +54,14 @@ window#waybar {
     border-radius: 15px;
     border: 0px;
     color: #cba6f7;
-    background-color: #313244;
+    background-color: #1e1e2e;
     opacity: 1;
 	min-width: 16px;
 }
 
 #workspaces button.active {
     color: #89b4fa;
-    background: #45475a;
+    background: #313244;
     border-radius: 15px;
     min-width: 50px;
     opacity:1.0;
@@ -69,7 +69,7 @@ window#waybar {
 
 #workspaces button:hover {
     color: #f9e2af;
-    background: #585b70;
+    background: #45475a;
     border-radius: 15px;
     opacity:1;
 }
@@ -412,7 +412,7 @@ window#waybar.empty #window {
 }
 
 #temperature {
-    background-color: #313244;
+    background-color: #1e1e2e;
     font-size: 16px;
     color: #eba0ac;
     border-radius: 15px;
