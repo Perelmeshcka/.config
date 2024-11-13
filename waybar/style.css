@@ -269,7 +269,7 @@ window#waybar.empty #window {
  * Hardware Group
  * ----------------------------------------------------- */
 
- #disk,#memory,#cpu,#language,#custom-vpn {
+ #disk,#memory,#cpu,#language,#backlight,#custom-vpn {
     background-color: #1e1e2e;
     font-size: 16px;
     color: #f5e0dc;
@@ -289,6 +289,10 @@ window#waybar.empty #window {
 
 #disk {
 	color: #fab387;
+}
+
+#backlight {
+	color: #f9e2af;
 }
 
 /* -----------------------------------------------------
