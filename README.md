@@ -1,15 +1,37 @@
 # My Hyprland Dotfiles
-(based on [this](https://github.com/Zproger/bspwm-dotfiles) and [catppuccin palette](https://catppuccin.com/palette))
+(based on [catppuccin palette](https://catppuccin.com/palette))
 
 ## Components:
-- **OS**: Arch Linux 󰣇 
+- **OS**: Arch Linux 󰣇 *Optional*
 - **WM**: Hyprland  
+- **Wallpaper Engine**: SWWW 󰸉
 - **Bar**: Waybar  
 - **Menu**: Wofi/Rofi 󰍜 
-- **Browser**: Firefox 󰈹 
-- **Notification Center**: Swaync 󰂚 
+- **Browser**: Zen Browser 󰈹 
+- **Notification Center**: Dunst 󰂚 
 - **Terminal**: Alacritty  
 - **Shell**: Fish with Starship  
 - **Text Editor**: NeoVim  
 
-***Notice**: this configuration files frequency use directory /home/yarik! :)*
+***Notice**: If you are not Yarik, it may work incorrect :)*
+
+## Install
+- **Download components**
+For example, *Arch*:
+```shell
+yay -S hyprland swww waybar wofi rofi zen-browser-bin dunst alacritty fish starship neovim
+```
+
+- **Clone the repository**
+```shell
+git clone https://github.com/Perelmeshcka/.config
+```
+
+- **Download catppuccin-mocha-lavender gtk theme**
+```shell
+wget https://github.com/catppuccin/gtk/releases/download/v1.0.3/catppuccin-mocha-lavender-standard+default.zip
+unzip catppuccin-mocha-lavender-standard+default.zip
+mv catppuccin-mocha-lavender-standard+default ~/.themes/catppuccin-mocha-standard+default
+```
+
+- **Change the theme in your favourite way**
