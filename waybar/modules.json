@@ -312,6 +312,6 @@
 		"interval": 1,
 		"return-type": "text",
 		"format": "{}",
-		"on-click": "kitty -T \"VPN\" sh ~/.config/hypr/src/vpn.sh"
+		"on-click": "kitty -T VPN sh ~/.config/hypr/src/vpn.sh"
 	}
 }
