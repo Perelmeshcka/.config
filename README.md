@@ -9,7 +9,7 @@
 - **Menu**: Wofi/Rofi 󰍜 
 - **Browser**: Zen Browser 󰈹 
 - **Notification Center**: Dunst 󰂚 
-- **Terminal**: Alacritty  
+- **Terminal**: Kitty  
 - **Shell**: Fish with Starship  
 - **Text Editor**: NeoVim  
 
@@ -19,7 +19,7 @@
 - **Download components**
 For example, *Arch*:
 ```shell
-yay -S hyprland swww waybar wofi rofi zen-browser-bin dunst alacritty fish starship neovim
+yay -S hyprland swww waybar wofi rofi zen-browser-bin dunst kitty fish starship neovim
 ```
 
 - **Clone the repository**
