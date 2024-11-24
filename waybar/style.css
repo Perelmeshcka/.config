@@ -39,8 +39,8 @@ window#waybar {
     background: #1e1e2e;
     margin: 5px 1px 6px 1px;
     padding: 0px 1px;
-    border-radius: 15px;
-    border: 0px;
+    border-radius: 20px;
+    border: 0px solid #cba6f7;
     font-weight: bold;
     font-style: normal;
     opacity: 1;
@@ -54,25 +54,24 @@ window#waybar {
     border-radius: 15px;
     border: 0px;
     color: #cba6f7;
-    background-color: #1e1e2e;
     opacity: 1;
-	min-width: 16px;
+	min-width: 10px;
+    background: #1e1e2e;
 }
 
 #workspaces button.active {
     color: #89b4fa;
-    background: #313244;
     border-radius: 15px;
-    min-width: 50px;
     opacity:1.0;
 	font-weight: bold;
+    background: #1e1e2e;
 }
 
 #workspaces button:hover {
     color: #f9e2af;
-    background: #45475a;
     border-radius: 15px;
     opacity:1;
+    background-color: #1e1e2e;
 }
 
 /* -----------------------------------------------------
