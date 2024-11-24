@@ -236,11 +236,9 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
-        "format-bluetooth": "{volume}% {icon}  {format_source}",
-        "format-bluetooth-muted": "  {icon}  {format_source}",
-        "format-muted": "󰝟 {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-bluetooth-muted": " ",
+        "format-muted": " ",
         "format-icons": {
             "headphone": " ",
             "hands-free": "",
@@ -314,6 +312,6 @@
 		"interval": 1,
 		"return-type": "text",
 		"format": "{}",
-		"on-click": "alacritty -T VPN -e sh ~/.config/hypr/src/vpn.sh"
+		"on-click": "kitty -T \"VPN\" sh ~/.config/hypr/src/vpn.sh"
 	}
 }
