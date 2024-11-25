@@ -16,9 +16,9 @@
         "all-outputs": false,
         "format": "{icon}",
         "format-icons": {
-			"urgent": " ",
-			"active": " ",
-			"default": " "
+			"urgent": "",
+			"active": "",
+			"default": ""
         },
         "persistent-workspaces": {
             // START WORKSPACES
@@ -164,9 +164,9 @@
 
     "hyprland/language": {
         // "format": "  {short}",
-		"format-en": " en",
-		"format-ru": " ru",
-		"format-by": " by"
+		"format-en": "",
+		"format-ru": "",
+		"format-by": ""
     },
 
     // Group Hardware
@@ -178,11 +178,10 @@
             "transition-left-to-right": false
         },        
         "modules": [
-            "custom/system",
-            "disk",
             "cpu",
-            "memory",
-            "hyprland/language"
+			"disk",
+			"battery",
+            "backlight"
         ]
     },
     
@@ -223,10 +222,10 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{icon}  {time}",
+        "format": "{icon}",
+        "format-charging": " ",
+        "format-plugged": " ",
+        "format-alt": "{icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": [" ", " ", " ", " ", " "]
@@ -235,8 +234,8 @@
     // Pulseaudio
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "{icon} {volume}%",
+        "format": "{icon}",
+        "format-bluetooth": "{icon}",
         "format-bluetooth-muted": " ",
         "format-muted": " ",
         "format-icons": {
@@ -253,9 +252,9 @@
 
     // Bluetooth
     "bluetooth": {
-        "format": " {status}",
-        "format-disabled": " ",
-		"format-connected": "  ",
+        "format": "󰂯",
+        "format-disabled": "󰂲",
+		"format-connected": "󰂱",
         "interval": 30,
         "on-click": "blueman-manager",
         "format-no-controller": ""
@@ -303,7 +302,7 @@
 
 	"backlight": {
 		"device": "intel_backlight",
-		"format": "{icon} {percent}%",
+		"format": "{icon}",
 		"format-icons": ["󰃚", "󰃛", "󰃜", "󰃞", "󰃟", "󰃝", "󰃠"]
 	},
 

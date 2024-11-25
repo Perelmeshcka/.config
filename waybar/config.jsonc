@@ -33,19 +33,18 @@
     "modules-center": [
 		"temperature",
 		"cpu",
-		"disk",
-        "battery",
-		"backlight",
 		"custom/vpn"
     ],
 
     // Modules Right    
     "modules-right": [
-        "pulseaudio",
-        "bluetooth",
+		"network",
+		"pulseaudio",
+		"battery",
 		"hyprland/language",
+		"backlight",
         "clock",
-        "network"
+		"bluetooth"
     ]
 }
 
