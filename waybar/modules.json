@@ -145,7 +145,7 @@
     // CPU
     "cpu": {
         "format": " {usage}%",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -T VPN htop"
     },
 
     // Memory
