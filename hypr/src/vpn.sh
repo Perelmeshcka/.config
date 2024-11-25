@@ -9,20 +9,21 @@ function run_anyway() {  # функция для выполнения коман
 }
 
 function turn_on {
-	run_anyway "doas wg-quick up wg0"  # на этом моменте если неправильно ввести пароль, если бы не было run_anyway, впн бы не включился
 	echo "1" > ~/.config/hypr/src/vpn-working
+	doas wg-quick up wg0
 	notify-send "VPN is working"
 }
 
 function turn_off {
-	run_anyway "doas wg-quick down wg0"
 	echo "0" > ~/.config/hypr/src/vpn-working
+	doas wg-quick down wg0
 	notify-send "VPN stopped"
 }
 
 working=$(<~/.config/hypr/src/vpn-working)
 echo "$working"
 
+run_anyway "doas echo \"doas: Authentication managed\""  # на этом моменте если неправильно ввести пароль, если бы не было run_anyway, впн бы не включился
 if [ "$working" = "1" ]; then
 	turn_off
 else
