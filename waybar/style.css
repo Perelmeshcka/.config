@@ -279,7 +279,7 @@ window#waybar.empty #window {
 }
 
 #temperature {
-    color: #eba0ac;
+    color: #f5c2e7;
 	border-radius: 15px 0px 0px 15px;
 }
 
@@ -290,7 +290,7 @@ window#waybar.empty #window {
 }
 
 #cpu {
-	color: #cba6f7;
+	color: #b4befe;
 	border-radius: 0px 0px 0px 0px;
 }
 
