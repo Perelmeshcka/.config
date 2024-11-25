@@ -90,7 +90,7 @@
         // START APPS LABEL
         "format": "󰣇",
         // END APPS LABEL
-        "on-click": "wofi --prompt 'Wofi Search' --show drun --allow-images --no-actions --normal-window",
+        "on-click": "wofi",
         "tooltip": false
     },
 
