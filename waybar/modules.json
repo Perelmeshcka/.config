@@ -206,7 +206,7 @@
         "format": "{ifname}",
         "format-wifi": " ",
         "format-ethernet": " ",
-        "format-disconnected": "disconnected",
+        "format-disconnected": "",
         "tooltip-format": "{ifname} via {gwaddri}",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
         "tooltip-format-ethernet": "{ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
@@ -304,6 +304,7 @@
 	"backlight": {
 		"device": "intel_backlight",
 		"format": "{icon}",
+		"tooltip-format": "{percent}%",
 		"format-icons": ["󰃚", "󰃛", "󰃜", "󰃞", "󰃟", "󰃝", "󰃠"]
 	},
 
