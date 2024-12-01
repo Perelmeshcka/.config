@@ -90,7 +90,7 @@
         // START APPS LABEL
         "format": "󰣇",
         // END APPS LABEL
-        "on-click": "wofi",
+        "on-click": "rofi -show drun",
         "tooltip": false
     },
 
@@ -222,8 +222,9 @@
             "warning": 30,
             "critical": 15
         },
+		"interval": 3,
         "format": "{icon}",
-        "format-charging": " ",
+        "format-charging": "{icon}",
         "format-plugged": " ",
         "format-alt": "{icon}",
         // "format-good": "", // An empty format will hide the module
