@@ -2,9 +2,9 @@ configuration{
     modi: "run,drun,window";
     lines: 5;
     font: "JetBrainsMono Nerd Font 14";
-    show-icons: true;
+    show-icons: false;
     icon-theme: "Papirus-dark";
-    terminal: "alacritty";
+    terminal: "kitty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
@@ -66,7 +66,7 @@ listview {
     border: 0px 0px 0px;
     padding: 6px 0px 0px;
     margin: 10px 0px 0px 20px;
-    columns: 2;
+    columns: 1;
     background-color: @bg-col;
 }
 
