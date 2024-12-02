@@ -26,7 +26,8 @@
     "modules-left": [
         "custom/appmenu",
         "hyprland/workspaces",
-		"custom/cat"
+		// "custom/cat"
+		"tray"
     ],
 
     // Modules Center

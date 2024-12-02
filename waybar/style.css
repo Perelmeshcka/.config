@@ -265,7 +265,7 @@ window#waybar.empty #window {
  * Hardware Group
  * ----------------------------------------------------- */
 
-#temperature,#disk,#memory,#cpu,#language,#backlight,#custom-vpn,#network,#bluetooth,#battery,#pulseaudio,#clock {
+#temperature,#disk,#memory,#cpu,#language,#backlight,#custom-vpn,#network,#bluetooth,#battery,#pulseaudio,#clock,#tray {
     background-color: #313244;
     font-size: 16px;
     border-radius: 15px;
@@ -274,7 +274,7 @@ window#waybar.empty #window {
     opacity:1;
 }
 
-#network,#bluetooth {
+#network,#bluetooth,#tray {
 	background-color: #1e1e2e;
 }
 
