@@ -312,7 +312,6 @@
 	"custom/vpn": {
 		"exec": "cat ~/.config/hypr/src/vpn-status",
 		"interval": 1,
-		"return-type": "text",
 		"format": "{}",
 		"on-click": "kitty -T VPN sh ~/.config/hypr/src/vpn.sh"
 	}
