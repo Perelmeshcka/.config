@@ -1,3 +1,5 @@
+#!/bin/bash
+
 device=$( bluetoothctl devices | awk '{$1=""; print $0}' | rofi -dmenu -p "󰂯 Connect" )
 device_mac=$( echo "$device" | awk '{print $1}' )
 device_name=$( echo "$device" | awk '{$1=""; print $0}' )

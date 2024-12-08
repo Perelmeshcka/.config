@@ -1,5 +1,6 @@
 # My Hyprland Dotfiles
 (based on [catppuccin palette](https://catppuccin.com/palette))
+I cloned [this Yandex Music TUI client](https://github.com/DECE2183/yamusic-tui) and changed some icons in *ui/style/styles.go* because of incorrect display.
 
 ## Components:
 - **OS**: Arch Linux 󰣇 *Optional*
