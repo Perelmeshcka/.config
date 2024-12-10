@@ -285,6 +285,7 @@ window#waybar.empty #window {
 
 #language {
 	font-weight: bold;
+	font-size: 19px;
     color: #f5e0dc;
 	border-radius: 0px;
 }
@@ -321,6 +322,7 @@ window#waybar.empty #window {
 #pulseaudio {
 	color: #94e2d5;
     border-radius: 15px 0px 0px 15px;
+	font-size: 19px;
 }
 
 #pulseaudio.muted {

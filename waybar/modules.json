@@ -164,9 +164,9 @@
 
     "hyprland/language": {
         // "format": "  {short}",
-		"format-en": "",
-		"format-ru": "",
-		"format-by": ""
+		"format-en": "󰇁",
+		"format-ru": "󰆱",
+		"format-by": "󰆬"
     },
 
     // Group Hardware
@@ -204,8 +204,9 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": " ",
-        "format-ethernet": " ",
+        "format-wifi": "{icon} ",
+		"format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-ethernet": "󰈀 ",
         "format-disconnected": "",
         "tooltip-format": "{ifname} via {gwaddri}",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
@@ -229,7 +230,7 @@
         "format-alt": "{icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": [" ", " ", " ", " ", " "],
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
 		"tooltip-format": "{capacity}%"
     },
 
@@ -238,8 +239,8 @@
         // "scroll-step": 1, // %, can be a float
         "format": "{icon}",
         "format-bluetooth": "{icon}",
-        "format-bluetooth-muted": " ",
-        "format-muted": " ",
+        "format-bluetooth-muted": "󰖁",
+        "format-muted": "󰖁",
         "format-icons": {
             "headphone": " ",
             "hands-free": "",
@@ -247,7 +248,7 @@
             "phone": " ",
             "portable": " ",
             "car": "",
-            "default": [" ", " ", " "]
+            "default": ["󰕿", "󰖀", "󰕾"]
         },
         "on-click": "pavucontrol"
     },
