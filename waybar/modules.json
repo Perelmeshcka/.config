@@ -166,7 +166,9 @@
         // "format": "  {short}",
 		"format-en": "󰇁",
 		"format-ru": "󰆱",
-		"format-by": "󰆬"
+		"format-by": "󰆬",
+		"on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
+		"on-click-right": "hyprctl switchxkblayout at-translated-set-2-keyboard prev"
     },
 
     // Group Hardware
